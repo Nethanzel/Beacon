@@ -3,11 +3,11 @@
 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Beacon</h1>
 
 Before taking over:
-- You'll need to set your database (MongoDB)
-- Server-Secret is not defined in the code
-- NPM install to get the modules
+- You'll need to set your database (MongoDB) -
+- Server-Secret is not defined in the code -
+- NPM install to get the modules -
 
 * You can read about project arquitecture on file "/docs/notes.txt" *
 * To insert an user from zero, set the "dataPreset/userTest.js" file (lines 12 - 13, set your database url on line 6)  *
-- If you change the permission level lower than 100, you won't be able to see the admin's panel when ussing the app (from there you can add more user accounts)
+- If you change the permission level lower than 100, you won't be able to see the admin's panel when ussing the app (from there you can add more user accounts) -
 

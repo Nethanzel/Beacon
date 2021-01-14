@@ -17,4 +17,4 @@ Before taking over:
 
 *I'll be working on optimize the code.*
 
-The project is about billing/taxes overview, base on some experience i got from a old job.
+The project is about billing/taxes overview, base on some experience i got from an old job.

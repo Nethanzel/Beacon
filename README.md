@@ -1,2 +1,2 @@
-![beacon image](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![beacon image](https://github.com/Nethanzel/Beacon/blob/master/src/public/img/beacomlg.b47dabd0.png)
 # Beacon

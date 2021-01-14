@@ -16,3 +16,5 @@ Before taking over:
 *You don't need to compile the [front end](https://github.com/Nethanzel/Beacon-front-end-), it is already there!*
 
 *I'll be working on optimize the code.*
+
+The project is about billing/taxex management, base on some experience i got from a old job.

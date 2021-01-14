@@ -6,7 +6,6 @@ const morgan = require('morgan');
 const path = require('path');
 const session = require('express-session');
 const passport = require('passport');
-const cors = require('cors');
 const history = require('connect-history-api-fallback');
 const formidable = require('express-formidable');
 const bodyParser = require('body-parser')
@@ -36,8 +35,6 @@ app.set('port', process.env.PORT || 80);
 //}
 
 //Middlewares {
-app.use(cors())
-
 app.use(morgan('combined'));
 app.use(formidable())
 app.use(bodyParser.urlencoded({extended: true}))

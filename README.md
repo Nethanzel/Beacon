@@ -12,4 +12,5 @@ Before taking over:
 
 *To insert an user from zero, set the "dataPreset/userTest.js" file (lines 12 - 13, set your database url on line 6)*
 - If you change the permission level lower than 100, you won't be able to see the admin's panel when ussing the app (from there you can add more user accounts)
-*You don't need to compile the [front end](https://github.com/Nethanzel/Beacon-front-end-), it is already there!
+
+*You don't need to compile the [front end](https://github.com/Nethanzel/Beacon-front-end-), it is already there!*

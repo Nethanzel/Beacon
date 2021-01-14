@@ -1,0 +1,60 @@
+> Required modules:
+
+    ● express
+    ● express-session
+    ● mongoose
+    ● morgan
+    ● passport
+    ● passport-local
+
+> Required fields:
+
+(A)    RNC                     => Manual/String (Max - 9)
+(B)    Razon social            => Manual/String
+(C)    NCF                     => Manual/String (Max - 11)
+(D)    Fecha                   => Manual/Date
+(E)    Total gravado           => Manual/Number
+(F)    Total excento           => Manual/Number
+(G)    Propina legal           => Manual/Number
+(H)    ITBIS gravado           => Manual/Number (= 0.18 * val(E))
+(I)    Total facturado         => Manual/Number (= val(E) + val(F) + val(G) + val(H))
+
+<Extra>
+
+(J)    Image                  => Manual/Imagen (Choosing a file from file system)
+(K)    Category               => Manual/String
+(L)    Consum                 => Manual/Boolean
+
+<Security>
+
+(M)    RegUser                 => System/String
+(N)    RegDate                 => System/new Date
+
+> Routes:
+
+<Views>
+    (GET)   / > Login view (if sesion, goes directly to dashboard)
+
+<Auth>
+    (POST)   /api/login > For users validation
+    (GET)    /api/test > Testing if you already have a sesion
+    (GET)    /api/logout > To end a sesion
+    (POST)   /api/pass > Receives a new password when any user needs to set a new one
+    (GET)    /api/access > Sends required user data to admin's panel to have a preview before changing access level
+    (POST)   /api/access >  receives the username and new access level for a user and sets it to db
+    (POST)   /api/user > Receives the required params to create a new user account, if so, creates the new user
+    (DELETE) /api/user > Receives a username to delete
+
+<Data>
+    (POST)   /api/billing > Receives the data to be saved from the actions (insert) interface
+    (GET)    /api/billing > Receives the search view params to make a query over the data
+    (DELETE) /api/billing > Recibes params from search view to delete the specified document
+    (GET)    /api/cat > Sends the registers to be used as categories for the interface
+    (POST)   /api/cat > Receives a param to be inserted as a new category
+    (GET)    /api/dashboard > Sends the data required to show in the dashboard view
+
+<Configuracion>
+    (GET)    /api/profimage > Gives the profile image, base on the user's request
+    (POST)   /api/profimage > Update the profile image, base on the user's request
+    (GET)    /api/theme > Update the theme param for the user that makes the request
+

@@ -1,0 +1,10 @@
+node_modules
+dataPreset/*
+!dataPreset/UserTest.js
+.env
+
+src/img/profile/*
+!src/img/profile/default.jpg
+
+src/public/billing/*
+!src/public/billing/no-preview.png

@@ -6,6 +6,7 @@
     ● morgan
     ● passport
     ● passport-local
+    ● connect-history-api-fallback
 
 > Required fields:
 

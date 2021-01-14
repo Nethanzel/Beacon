@@ -14,4 +14,5 @@ Before taking over:
 - If you change the permission level lower than 100, you won't be able to see the admin's panel when ussing the app (from there you can add more user accounts).
 
 *You don't need to compile the [front end](https://github.com/Nethanzel/Beacon-front-end-), it is already there!*
+
 *I'll be working on optimize the code.*
